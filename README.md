@@ -5,7 +5,8 @@
 #import "LDIconPickerButton.h"
 ```
 ```
-  self.iconBtn = [LDIconPickerButton iconWithFrame:icon的frame cornerRadius:50 image:图片url  placeholderImage:占位图名称 completion:^(UIImage *icon) {
+  self.iconBtn = [LDIconPickerButton iconWithFrame:icon的frame cornerRadius:50 image:图片url 
+    placeholderImage:占位图名称 completion:^(UIImage *icon) {
 //  your code      icon为通过相册或相机选择的照片
   }];
   [self.view addSubview:self.iconBtn];
